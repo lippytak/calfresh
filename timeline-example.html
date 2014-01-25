@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timeline JS Example</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS example">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.26.3/css/timeline.css">
+    <!-- Style-->
+    <style>
+      html, body {
+       height:100%;
+       padding: 0px;
+       margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+      <!-- BEGIN Timeline Embed -->
+      <div id="timeline-embed"></div>
+      <script type="text/javascript">
+        var timeline_config = {
+         width: "100%",
+         height: "100%",
+         // Change the source to your google spreadsheet URL
+         source: 'https://docs.google.com/spreadsheet/pub?key=0AnFBBOclPdX5dC1tWHNNRDk0bGRWSGZEMmdOem8zZ0E&output=html'
+        }
+      </script>
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.26.3/js/storyjs-embed-cdn.js"></script>
+      <!-- END Timeline Embed-->
+  </body>
+</html>
